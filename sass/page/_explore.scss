@@ -1,0 +1,46 @@
+.explore{
+    padding-top: 150px;
+}
+.explore-title{
+    color: $mainColor;
+    text-align: center;
+    font-size: 64px;
+    font-weight: 800;
+    line-height: 109.375% ;
+}
+.explore-subtitle{
+    color: $secondaryColor;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 400;
+    width: 604px;
+    margin-left: 400px;
+    margin-top: 24px;
+    margin-bottom: 90px;
+}
+.explore-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.explore-item {
+    border-radius: 24px;
+    background: linear-gradient(152deg, #FFF 0%, rgba(255, 255, 255, 0.00) 100%);
+    box-shadow: 0px 30px 60px 0px rgba(163, 168, 178, 0.15);
+    width: 393px;
+    height: 540px;
+    flex-shrink: 0;
+    padding: 40px;
+}
+
+.explore-list-title {
+    color: $mainColor;
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.explore-list-text {
+    color: $secondaryColor;
+    font-size: 24px;
+    font-weight: 400;
+}

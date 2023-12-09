@@ -38,17 +38,8 @@
     height: 56px;
 }
 .header-second-btn{
-    color: #FFF;
-    font-size: 15px;
-    font-weight: 500;
-    line-height: 173.333% ;
-    text-transform: uppercase;
-    display: flex;
+    @extend %btn;
     padding: 15px 30px;
-    justify-content: center;
-    align-items: center;
-    border-radius: 63px;
-    background-color: $mainColor;
 }
 .hero{
     display: flex;
@@ -67,9 +58,7 @@
     width: 597px;
 }
 .hero-subtitle{
-    color: $secondaryColor;
-    font-size: 24px;
-    font-weight: 400;
+    @extend %subtitle;
     width: 530px;
 }
 .hero-btn-wrap{
@@ -79,18 +68,9 @@
     margin-top: 60px;
 }
 .hero-btn{
-    border-radius: 126px;
-    background: $mainColor;
-    color: $whiteColor;
-    font-size: 18px;
-    font-weight: 500;
-    line-height: 166.667%;
-    text-transform: uppercase;
+    @extend %btn;
     width: 230px;
-    display: flex;
     padding: 20px 40px;
-    justify-content: center;
-    align-items: center;
     gap: 10px;
 }
 .hero-link{

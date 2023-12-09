@@ -1,0 +1,25 @@
+%btn{
+    border-radius: 126px;
+    background: $mainColor;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: $whiteColor;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 166.667%;
+    text-transform: uppercase;
+}
+
+%title{
+    color: $mainColor;
+    font-size: 64px;
+    font-weight: 800;
+    line-height: 109.375% ;
+}
+
+%subtitle{
+    color: $secondaryColor;
+    font-size: 24px;
+    font-weight: 400;
+}

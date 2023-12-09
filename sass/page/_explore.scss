@@ -1,18 +1,16 @@
 .explore{
     padding-top: 150px;
+    position: relative;
+    margin-bottom: 270px;
 }
 .explore-title{
+    @extend %title;
     color: $mainColor;
     text-align: center;
-    font-size: 64px;
-    font-weight: 800;
-    line-height: 109.375% ;
 }
 .explore-subtitle{
-    color: $secondaryColor;
+    @extend %subtitle;
     text-align: center;
-    font-size: 24px;
-    font-weight: 400;
     width: 604px;
     margin-left: 400px;
     margin-top: 24px;
@@ -31,16 +29,31 @@
     height: 540px;
     flex-shrink: 0;
     padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .explore-list-title {
     color: $mainColor;
     font-size: 36px;
     font-weight: 600;
+    text-align: left;
 }
 
 .explore-list-text {
-    color: $secondaryColor;
-    font-size: 24px;
-    font-weight: 400;
+    @extend %subtitle;
+    text-align: left;
+}
+.explore-btn{
+    @extend %btn;
+    width: 240px;
+    padding: 15px 30px;
+    gap: 10px;
+    align-self: center;
+}
+.explore-img{
+    position: absolute;
+    left: -60px;
+    top: 20px;
 }

@@ -1,0 +1,13 @@
+.bestselling {}
+
+.bestselling-title {
+    @extend %title;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.bestselling-subtitle {
+    @extend %subtitle;
+    text-align: center;
+    margin-bottom: 172px;
+}

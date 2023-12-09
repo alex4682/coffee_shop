@@ -1,13 +1,70 @@
-.bestselling {}
-
+.bestselling{
+    margin-bottom: 370px;
+    position: relative;
+}
 .bestselling-title {
     @extend %title;
     text-align: center;
     margin-bottom: 24px;
 }
-
+.bestselling-img{
+    position: absolute;
+    right: -60px;
+    top: -150px;
+}
 .bestselling-subtitle {
     @extend %subtitle;
     text-align: center;
     margin-bottom: 172px;
+}
+.bestselling-list{
+    display: flex;
+    justify-content: space-between;
+}
+.bestselling-item{
+    border-radius: 24px;
+    background: linear-gradient(142deg, #FFF 0%, rgba(255, 255, 255, 0.00) 100%);
+    box-shadow: 0px 20px 60px 0px rgba(163, 168, 178, 0.15);
+    width: 450px;
+    height: 650px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: end;
+    position: relative;
+    padding: 35px;
+}
+.bestselling-list-img{
+    position: absolute;
+    left: 0;
+    top:-85px;
+}
+.bestselling-list-subtitle{
+    @extend %subtitle;
+    font-weight: 500;
+    margin-right: 100px;
+}
+.bestselling-list-title{
+    @extend %title;
+    width: 120px;
+    font-size: 40px;
+    margin-right: 100px;
+    margin-top: -100px;   
+}
+.bestselling-list-text{
+    @extend %subtitle;
+}
+.price{
+    color: $mainColor;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 93%;
+    position: absolute;
+    left: 50px;
+    bottom: 50px;
+}
+.bestselling-list-btn{
+    @extend %btn;
+    padding: 15px 30px;
+    width: 200px;
 }

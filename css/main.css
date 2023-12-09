@@ -57,7 +57,7 @@ ul {
   width: 1400px;
 }
 
-.order-btn, .explore-btn, .hero-btn, .header-second-btn {
+.bestselling-list-btn, .order-btn, .explore-btn, .hero-btn, .header-second-btn {
   border-radius: 126px;
   background: #1B1B1D;
   display: flex;
@@ -66,18 +66,18 @@ ul {
   color: #fff;
   font-size: 18px;
   font-weight: 500;
-  line-height: 166.667%;
+  line-height: 167%;
   text-transform: uppercase;
 }
 
-.bestselling-title, .order-title, .explore-title {
+.bestselling-list-title, .bestselling-title, .order-title, .explore-title {
   color: #1B1B1D;
   font-size: 64px;
   font-weight: 800;
-  line-height: 109.375%;
+  line-height: 109%;
 }
 
-.bestselling-subtitle, .order-text, .explore-list-text, .explore-subtitle, .hero-subtitle {
+.bestselling-list-text, .bestselling-list-subtitle, .bestselling-subtitle, .order-text, .explore-list-text, .explore-subtitle, .hero-subtitle {
   color: #64646A;
   font-size: 24px;
   font-weight: 400;
@@ -289,12 +289,75 @@ ul {
   margin-top: 30px;
 }
 
+.bestselling {
+  margin-bottom: 370px;
+  position: relative;
+}
+
 .bestselling-title {
   text-align: center;
   margin-bottom: 24px;
 }
 
+.bestselling-img {
+  position: absolute;
+  right: -60px;
+  top: -150px;
+}
+
 .bestselling-subtitle {
   text-align: center;
   margin-bottom: 172px;
+}
+
+.bestselling-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.bestselling-item {
+  border-radius: 24px;
+  background: linear-gradient(142deg, #FFF 0%, rgba(255, 255, 255, 0) 100%);
+  box-shadow: 0px 20px 60px 0px rgba(163, 168, 178, 0.15);
+  width: 450px;
+  height: 650px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: end;
+  position: relative;
+  padding: 35px;
+}
+
+.bestselling-list-img {
+  position: absolute;
+  left: 0;
+  top: -85px;
+}
+
+.bestselling-list-subtitle {
+  font-weight: 500;
+  margin-right: 100px;
+}
+
+.bestselling-list-title {
+  width: 120px;
+  font-size: 40px;
+  margin-right: 100px;
+  margin-top: -100px;
+}
+
+.price {
+  color: #1B1B1D;
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 93%;
+  position: absolute;
+  left: 50px;
+  bottom: 50px;
+}
+
+.bestselling-list-btn {
+  padding: 15px 30px;
+  width: 200px;
 }/*# sourceMappingURL=main.css.map */
